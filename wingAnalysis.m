@@ -430,6 +430,7 @@ q1t = q2t*q1t_over_q2t;
 qt = [q1t;q2t];
 
 %--- insert force balance to check total shear flows --- 
+% ^ above comment means to sum the product of the shear flows and their respective dx values to get the drag force (if correct)
 
 % --- -- 
 
