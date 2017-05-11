@@ -38,6 +38,9 @@ sparCaps(2).posZ = get_z(frontSpar,0);
 sparCaps(3).posZ = get_z(backSpar,1);
 sparCaps(4).posZ = get_z(backSpar,0);
 
+% get_z works on a normalized scale, so need to divide by 5 (chord length) at beginning and then multiply by 5 at end
+% to use the function as is
+
 sparCaps(1).area = .1;
 sparCaps(2).area = .1;
 sparCaps(3).area = .1;
